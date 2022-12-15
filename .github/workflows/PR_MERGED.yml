@@ -1,0 +1,16 @@
+name: PR merged
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo The PR $NUMBER was merged
+      env:
+        NUMBER: ${{ github.event.number }}
