@@ -1,0 +1,8 @@
+{
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "type": "ERC20",
+    "address": "0x23458bd252d00809ba969ab8a88a06b8d5c8fd25",
+    "website": "https://usdcrox.io/",
+    "notes": "This is my USD coin what I made"
+}
