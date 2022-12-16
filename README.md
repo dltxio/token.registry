@@ -1,4 +1,4 @@
-# token.registry
+# Ethereum Registry of Tokens
 To submit your token to the registry, create a branch and add a new file `ERTs/{address_of_your_token}.json` following this template:
 
 ```
