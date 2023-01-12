@@ -1,0 +1,7 @@
+APE
+DAI
+TSM
+USB
+USDC
+XEN
+ZTA
