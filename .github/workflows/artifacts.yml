@@ -19,3 +19,8 @@ jobs:
         with:
           name: tokens
           path: tokens.txt
+      - name: Install doctl
+        uses: actions/action-doctl@v2
+        with:
+          token: ${{ secrets.DO_TOKEN }}
+      - run: doctl app create-deployment --force-rebuild 8214ff44-6a1d-46ce-b764-90158d2b911b
