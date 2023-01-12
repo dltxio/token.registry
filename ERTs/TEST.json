@@ -1,0 +1,8 @@
+{
+  "name": "TEST coin",
+  "symbol": "TEST",
+  "type": "ERC20",
+  "address": "0x0000000000000000000000000000000000000000",
+  "website": "https://dltx.io",
+  "notes": "A test coin!"
+}
