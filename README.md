@@ -13,4 +13,4 @@ To submit your token to the registry, create a branch and add a new file `ERTs/{
 
 ```
 
-The create a PR. Once our validators merge your PR, it will be automagically added to the registry contract!
+Then create a pull request. Once our validators merge your pull request, it will be automagically added to the registry contract!
